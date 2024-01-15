@@ -52,11 +52,13 @@ body {
     font-weight: 700;
 }
 
-.item1 h4 {
+.days {
     color: var(--bright-yellow);
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
-.item1 p {
+.info {
     color: var(--grayish-blue);
 }
 
@@ -134,7 +136,7 @@ body {
       margin: 0.7rem;
     }
   
-    .item1 p {
+    .info {
       font-size: 0.9rem;
     }
 }
