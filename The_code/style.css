@@ -18,7 +18,6 @@
 body {
     min-height: 100vh;
     display: flex;
-    /*align-items: center;*/
     flex-direction: column;
     justify-content: center;
     font-family: var(--font);
@@ -59,7 +58,6 @@ body {
 
 .item1 p {
     color: var(--grayish-blue);
-    /*padding-right: 1rem;*/
 }
 
 .item2 {
@@ -68,17 +66,22 @@ body {
     color: var(--white);
 }
 
-.item2 h4, .item3 h4 {
+.item2 h3, .item3 h3 {
     margin-top: 0;
 }
 
 .cost {
     display: flex;
     align-items: center;
-    /*margin: 0;*/
 }
 
-.cost p{
+.price{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.month {
     padding-left: 1rem;
     font-weight: 200;
 }
@@ -95,6 +98,7 @@ body {
     color: inherit;
     padding: 1rem;
     box-shadow: 0 10px 10px rgba(56, 42, 58, 0.2);
+    margin-top: 1rem;
     
 }
 
@@ -133,5 +137,4 @@ body {
     .item1 p {
       font-size: 0.9rem;
     }
-
 }
